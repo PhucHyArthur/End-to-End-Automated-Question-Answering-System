@@ -3,7 +3,7 @@
 ## I. Introduction
 In this project, we focus on developing an end-to-end automated question-answering system capable of answering questions on any topic. The system we implement in this project comprises two main components: the Retriever and the Reader, aiming to build a comprehensive system capable of extracting information from text and providing answers to questions based on the content of the passage
 
-[Overview of System](./image/2.png)
+![Overview of System](./image/2.png)
 
 ## II. Methodology
 1. Implementation
@@ -15,7 +15,8 @@ Output: The corresponding answer.
 The SQuAD2.0 Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset that includes various passages on multiple topics, each accompanied by a set of short questions. Table 1 provides a detailed description of the SQuAD2.0 dataset structure.
 [Illustrative example of the SQuAD2.0 dataset.](./image/3.png)
 
-[Table 1](./image/4.png)
+![Table 1](./image/4.png)
+
 3. Reader (DistilBERT)
 First, we will build the Reader model, which serves as the question-answering (QA) model in this project. 
 You can see it in solution_DistilBERT_QA.ipynb
@@ -30,6 +31,6 @@ Faiss is a library developed by the Facebook AI Research Team that supports high
 
 The processing workflow of Faiss in this project can be summarized in the image below:
 
-[Illustration of the steps for building a vector database with Faiss](./image/5.png)
+![Illustration of the steps for building a vector database with Faiss](./image/5.png)
 
 You can see it in solution_HF_Faiss_Search.ipynb
