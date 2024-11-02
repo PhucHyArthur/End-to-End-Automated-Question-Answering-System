@@ -38,7 +38,7 @@
 <h3>3. Reader (DistilBERT)</h3>
 <p>
   First, we will build the Reader model, which serves as the question-answering (QA) model in this project. 
-  You can see it in <code>solution_DistilBERT_QA.ipynb</code>
+  You can see it in <code>[solution]_DistilBERT_QA.ipynb</code>
 </p>
 
 <h3>4. Retriever: Faiss (Facebook AI Similarity Search)</h3>
@@ -58,4 +58,4 @@
   <p><em>Figure 3: Illustration of the steps for building a vector database with Faiss.</em></p>
 </div>
 
-<p>You can see it in <code>solution_HF_Faiss_Search.ipynb</code></p>
+<p>You can see it in <code>[solution]_HF_Faiss_Search.ipynb</code></p>
