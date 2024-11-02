@@ -5,7 +5,7 @@
   In this project, we focus on developing an end-to-end automated question-answering system capable of answering questions on any topic. The system we implement in this project comprises two main components: the Retriever and the Reader, aiming to build a comprehensive system capable of extracting information from text and providing answers to questions based on the content of the passage.
 </p>
 
-<div style="text-align: center;">
+<div align="center">
   <img src="./image/2.png" alt="Overview of System">
   <p><em>Figure 1: Overview of System</em></p>
 </div>
@@ -25,12 +25,12 @@
 <p>
   The SQuAD2.0 Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset that includes various passages on multiple topics, each accompanied by a set of short questions. Table 1 provides a detailed description of the SQuAD2.0 dataset structure.
 </p>
-<div style="text-align: center;">
+<div align="center">
   <img src="./image/3.png" alt="Illustrative example of the SQuAD2.0 dataset.">
   <p><em>Figure 2: Illustrative example of the SQuAD2.0 dataset.</em></p>
 </div>
 
-<div style="text-align: center;">
+<div align="center">
   <img src="./image/4.png" alt="Table 1">
   <p><em>Table 1: Detailed structure of the SQuAD2.0 dataset.</em></p>
 </div>
@@ -53,7 +53,7 @@
 
 <p>The processing workflow of Faiss in this project can be summarized in the image below:</p>
 
-<div style="text-align: center;">
+<div align="center">
   <img src="./image/5.png" alt="Illustration of the steps for building a vector database with Faiss">
   <p><em>Figure 3: Illustration of the steps for building a vector database with Faiss.</em></p>
 </div>
