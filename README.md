@@ -15,7 +15,9 @@ Output: The corresponding answer.
 The SQuAD2.0 Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset that includes various passages on multiple topics, each accompanied by a set of short questions. Table 1 provides a detailed description of the SQuAD2.0 dataset structure.
 ![Illustrative example of the SQuAD2.0 dataset.](./image/3.png)
 
-![Table 1](./image/4.png)
+<p align="center">
+  <img src="./image/4.png" alt="Table 1">
+</p>
 
 3. Reader (DistilBERT)
 First, we will build the Reader model, which serves as the question-answering (QA) model in this project. 
