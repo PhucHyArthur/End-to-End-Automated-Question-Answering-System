@@ -52,7 +52,7 @@
 
 <p align="center">
   <img src="./image/5.png" alt="Illustration of the steps for building a vector database with Faiss">
-  <text>Illustration of the steps for building a vector database with Faiss</text>
+  <p>Illustration of the steps for building a vector database with Faiss</p>
 </p>
 
 <p>You can see it in <code>[solution]_HF_Faiss_Search.ipynb</code></p>
