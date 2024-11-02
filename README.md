@@ -5,9 +5,10 @@
   In this project, we focus on developing an end-to-end automated question-answering system capable of answering questions on any topic. The system we implement in this project comprises two main components: the Retriever and the Reader, aiming to build a comprehensive system capable of extracting information from text and providing answers to questions based on the content of the passage.
 </p>
 
-<p align="center">
+<div style="text-align: center;">
   <img src="./image/2.png" alt="Overview of System">
-</p>
+  <p><em>Figure 1: Overview of System</em></p>
+</div>
 
 <h2>II. Methodology</h2>
 
@@ -24,18 +25,20 @@
 <p>
   The SQuAD2.0 Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset that includes various passages on multiple topics, each accompanied by a set of short questions. Table 1 provides a detailed description of the SQuAD2.0 dataset structure.
 </p>
-<p align="center">
+<div style="text-align: center;">
   <img src="./image/3.png" alt="Illustrative example of the SQuAD2.0 dataset.">
-</p>
+  <p><em>Figure 2: Illustrative example of the SQuAD2.0 dataset.</em></p>
+</div>
 
-<p align="center">
+<div style="text-align: center;">
   <img src="./image/4.png" alt="Table 1">
-</p>
+  <p><em>Table 1: Detailed structure of the SQuAD2.0 dataset.</em></p>
+</div>
 
 <h3>3. Reader (DistilBERT)</h3>
 <p>
   First, we will build the Reader model, which serves as the question-answering (QA) model in this project. 
-  You can see it in <code>[solution]_DistilBERT_QA.ipynb</code>
+  You can see it in <code>solution_DistilBERT_QA.ipynb</code>
 </p>
 
 <h3>4. Retriever: Faiss (Facebook AI Similarity Search)</h3>
@@ -50,9 +53,9 @@
 
 <p>The processing workflow of Faiss in this project can be summarized in the image below:</p>
 
-<p align="center">
+<div style="text-align: center;">
   <img src="./image/5.png" alt="Illustration of the steps for building a vector database with Faiss">
-  <p>Illustration of the steps for building a vector database with Faiss</p>
-</p>
+  <p><em>Figure 3: Illustration of the steps for building a vector database with Faiss.</em></p>
+</div>
 
-<p>You can see it in <code>[solution]_HF_Faiss_Search.ipynb</code></p>
+<p>You can see it in <code>solution_HF_Faiss_Search.ipynb</code></p>
